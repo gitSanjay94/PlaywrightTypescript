@@ -1,0 +1,74 @@
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="35.086797">
+<testsuite name="tests\Chapter04\04_TestReports_Test.spec.ts" timestamp="2025-04-30T17:45:24.168Z" hostname="chromium" tests="4" failures="1" skipped="0" time="123.703" errors="0">
+<testcase name="Smoke testing › Test 1" classname="tests\Chapter04\04_TestReports_Test.spec.ts" time="30.44">
+<system-out>
+<![CDATA[test 1...
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestReports_Test-Smoke-testing-Test-1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 2" classname="tests\Chapter04\04_TestReports_Test.spec.ts" time="30.534">
+<system-out>
+<![CDATA[test 2...
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestRep-9da81-t-Regression-testing-Test-2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 3" classname="tests\Chapter04\04_TestReports_Test.spec.ts" time="30.145">
+<system-out>
+<![CDATA[test 3...
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestRep-d4fa6-t-Regression-testing-Test-3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 4" classname="tests\Chapter04\04_TestReports_Test.spec.ts" time="32.584">
+<failure message="04_TestReports_Test.spec.ts:49:9 Test 4" type="FAILURE">
+<![CDATA[  [chromium] › tests\Chapter04\04_TestReports_Test.spec.ts:49:9 › Regression testing › Test 4 ──────
+
+    TimeoutError: locator.dragTo: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('.demoframe').contentFrame().locator('#draggable')
+
+
+      56 |         const dropEle = await iframe.locator('#droppable');
+      57 |
+    > 58 |         await dragEle.dragTo(dropEle)
+         |                       ^
+      59 |         await page.waitForTimeout(6000)
+      60 |
+      61 |     })
+        at C:\Users\Admin\Desktop\playwrightAutomation\playwrightTypeScript\tests\Chapter04\04_TestReports_Test.spec.ts:58:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[test 1...
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
