@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 4
+      "actualWorkers": 1
     },
     "preserveOutput": "always",
     "reporter": [
@@ -74,240 +74,165 @@
   },
   "suites": [
     {
-      "title": "tests\\Chapter04\\04_TestReports_Test.spec.ts",
-      "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
+      "title": "tests\\Module5\\amazon.test.ts",
+      "file": "tests/Module5/amazon.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Smoke testing",
-          "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
+          "title": "amazon",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 63336,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "1 Fresh\n"
+                    },
+                    {
+                      "text": "2 MX Player\n"
+                    },
+                    {
+                      "text": "3 Sell\n"
+                    },
+                    {
+                      "text": "4 Bestsellers\n"
+                    },
+                    {
+                      "text": "5 Today's Deals\n"
+                    },
+                    {
+                      "text": "6 Mobiles\n"
+                    },
+                    {
+                      "text": "7 Prime\n"
+                    },
+                    {
+                      "text": "8 Fashion\n"
+                    },
+                    {
+                      "text": "9 Customer Service\n"
+                    },
+                    {
+                      "text": "10 New Releases\n"
+                    },
+                    {
+                      "text": "11 Electronics\n"
+                    },
+                    {
+                      "text": "12 Home & Kitchen\n"
+                    },
+                    {
+                      "text": "13 Amazon Pay\n"
+                    },
+                    {
+                      "text": "14 Computers\n"
+                    },
+                    {
+                      "text": "15 Books\n"
+                    },
+                    {
+                      "text": "16 Car & Motorbike\n"
+                    },
+                    {
+                      "text": "17 Toys & Games\n"
+                    },
+                    {
+                      "text": "18 Beauty & Personal Care\n"
+                    },
+                    {
+                      "text": "19 Home Improvement\n"
+                    },
+                    {
+                      "text": "20 Gift Cards\n"
+                    },
+                    {
+                      "text": "21 Health, Household & Personal Care\n"
+                    },
+                    {
+                      "text": "22 Grocery & Gourmet Foods\n"
+                    },
+                    {
+                      "text": "23 Sports, Fitness & Outdoors\n"
+                    },
+                    {
+                      "text": "24 Custom Products\n"
+                    },
+                    {
+                      "text": "25 Baby\n"
+                    },
+                    {
+                      "text": "26 Pet Supplies\n"
+                    },
+                    {
+                      "text": "27 Video Games\n"
+                    },
+                    {
+                      "text": "28 Gift Ideas\n"
+                    },
+                    {
+                      "text": "29 AmazonBasics\n"
+                    },
+                    {
+                      "text": "30 Audible\n"
+                    },
+                    {
+                      "text": "31 Subscribe & Save\n"
+                    },
+                    {
+                      "text": "32 Kindle eBooks\n"
+                    },
+                    {
+                      "text": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in\n"
+                    },
+                    {
+                      "text": "Amazon.in : diapers small size 4-8 kg\n"
+                    },
+                    {
+                      "text": "\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-04T16:44:12.070Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Module5-amazon-amazon-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "159b81bd6fe71118bc37-c3552b7df73baa1367a7",
+          "file": "tests/Module5/amazon.test.ts",
           "line": 3,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Test 1",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 22234,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "test 1...\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-05-02T18:56:54.142Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestReports_Test-Smoke-testing-Test-1-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "9def3cd775518dc7203a-f879331490c107ffd999",
-              "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
-              "line": 4,
-              "column": 9
-            }
-          ]
-        },
-        {
-          "title": "Regression testing",
-          "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
-          "line": 19,
-          "column": 6,
-          "specs": [
-            {
-              "title": "Test 2",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 24995,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "test 2...\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-05-02T18:56:53.868Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestRep-9da81-t-Regression-testing-Test-2-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "9def3cd775518dc7203a-59c1c689ef22fe1988e8",
-              "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
-              "line": 21,
-              "column": 9
-            },
-            {
-              "title": "Test 3",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 2,
-                      "status": "passed",
-                      "duration": 26329,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "test 3...\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-05-02T18:56:53.987Z",
-                      "attachments": [
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestRep-d4fa6-t-Regression-testing-Test-3-chromium\\trace.zip"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "9def3cd775518dc7203a-c1fae91bcf3b15be0da1",
-              "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
-              "line": 35,
-              "column": 9
-            },
-            {
-              "title": "Test 4",
-              "ok": false,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 120000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 3,
-                      "status": "failed",
-                      "duration": 27861,
-                      "error": {
-                        "message": "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\u001b[22m\n",
-                        "stack": "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\u001b[22m\n\n    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts:58:23",
-                        "location": {
-                          "file": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts",
-                          "column": 23,
-                          "line": 58
-                        },
-                        "snippet": "\u001b[0m \u001b[90m 56 |\u001b[39m         \u001b[36mconst\u001b[39m dropEle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m iframe\u001b[33m.\u001b[39mlocator(\u001b[32m'#droppable'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m         \u001b[36mawait\u001b[39m dragEle\u001b[33m.\u001b[39mdragTo(dropEle)\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m6000\u001b[39m)\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     })\u001b[0m"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts",
-                            "column": 23,
-                            "line": 58
-                          },
-                          "message": "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\u001b[22m\n\n\n\u001b[0m \u001b[90m 56 |\u001b[39m         \u001b[36mconst\u001b[39m dropEle \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m iframe\u001b[33m.\u001b[39mlocator(\u001b[32m'#droppable'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 58 |\u001b[39m         \u001b[36mawait\u001b[39m dragEle\u001b[33m.\u001b[39mdragTo(dropEle)\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 59 |\u001b[39m         \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m6000\u001b[39m)\n \u001b[90m 60 |\u001b[39m\n \u001b[90m 61 |\u001b[39m     })\u001b[0m\n\u001b[2m    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts:58:23\u001b[22m"
-                        }
-                      ],
-                      "stdout": [
-                        {
-                          "text": "test 1...\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-05-02T18:56:53.860Z",
-                      "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\\video.webm"
-                        },
-                        {
-                          "name": "trace",
-                          "contentType": "application/zip",
-                          "path": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\test-results\\tests-Chapter04-04_TestRep-409f3-t-Regression-testing-Test-4-chromium\\trace.zip"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts",
-                        "column": 23,
-                        "line": 58
-                      }
-                    }
-                  ],
-                  "status": "unexpected"
-                }
-              ],
-              "id": "9def3cd775518dc7203a-c8951323975f4fc64273",
-              "file": "tests/Chapter04/04_TestReports_Test.spec.ts",
-              "line": 49,
-              "column": 9
-            }
-          ]
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-02T18:56:52.193Z",
-    "duration": 31203.556,
-    "expected": 3,
+    "startTime": "2025-05-04T16:44:10.569Z",
+    "duration": 67328.11499999999,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
