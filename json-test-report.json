@@ -101,7 +101,7 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 30440,
+                      "duration": 22234,
                       "errors": [],
                       "stdout": [
                         {
@@ -110,7 +110,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-04-30T17:45:25.718Z",
+                      "startTime": "2025-05-02T18:56:54.142Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -151,7 +151,7 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 30534,
+                      "duration": 24995,
                       "errors": [],
                       "stdout": [
                         {
@@ -160,7 +160,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-04-30T17:45:25.628Z",
+                      "startTime": "2025-05-02T18:56:53.868Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -193,7 +193,7 @@
                     {
                       "workerIndex": 2,
                       "status": "passed",
-                      "duration": 30145,
+                      "duration": 26329,
                       "errors": [],
                       "stdout": [
                         {
@@ -202,7 +202,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-04-30T17:45:25.702Z",
+                      "startTime": "2025-05-02T18:56:53.987Z",
                       "attachments": [
                         {
                           "name": "trace",
@@ -235,7 +235,7 @@
                     {
                       "workerIndex": 3,
                       "status": "failed",
-                      "duration": 32584,
+                      "duration": 27861,
                       "error": {
                         "message": "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\u001b[22m\n",
                         "stack": "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\u001b[22m\n\n    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Chapter04\\04_TestReports_Test.spec.ts:58:23",
@@ -263,7 +263,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2025-04-30T17:45:25.739Z",
+                      "startTime": "2025-05-02T18:56:53.860Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -303,8 +303,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-04-30T17:45:24.128Z",
-    "duration": 35086.797,
+    "startTime": "2025-05-02T18:56:52.193Z",
+    "duration": 31203.556,
     "expected": 3,
     "skipped": 0,
     "unexpected": 1,
