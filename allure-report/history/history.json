@@ -1,0 +1,99 @@
+{
+  "8399b60c1f3f317852e5e436f72225d9:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa822627f6cf88e0",
+      "status" : "broken",
+      "statusDetails" : "Test timeout of 120000ms exceeded.",
+      "time" : {
+        "start" : 1746382998883,
+        "stop" : 1746383121539,
+        "duration" : 122656
+      }
+    } ]
+  },
+  "211d7bbe29c9601a15f4a474972692da:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7dfa50e2e72c087",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746383258872,
+        "stop" : 1746383271186,
+        "duration" : 12314
+      }
+    } ]
+  },
+  "d56cc93245bddea7894a19845ff636ca:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6ba889ac4db0ac5d",
+      "status" : "failed",
+      "statusDetails" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n",
+      "time" : {
+        "start" : 1746383265171,
+        "stop" : 1746383281810,
+        "duration" : 16639
+      }
+    } ]
+  },
+  "93135558c2dd133be30da37e8a277042:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b79f28b384dba0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746383230970,
+        "stop" : 1746383264125,
+        "duration" : 33155
+      }
+    } ]
+  },
+  "7b441ee86029af6c15a37bf31411ca99:5bd835b0d6b1d4ada3b9f0db936e82c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34c43ff408ded089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1746383230964,
+        "stop" : 1746383258017,
+        "duration" : 27053
+      }
+    } ]
+  }
+}

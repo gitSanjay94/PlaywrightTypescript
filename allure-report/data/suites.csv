@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun May 04 23:57:38 IST 2025","Sun May 04 23:57:51 IST 2025","12314","chromium","tests\Module04\04_TestReports_Test.spec.ts","Regression testing","","","Test 3",""
+"failed","Sun May 04 23:57:45 IST 2025","Sun May 04 23:58:01 IST 2025","16639","chromium","tests\Module04\04_TestReports_Test.spec.ts","Regression testing","","","Test 4",""
+"passed","Sun May 04 23:57:10 IST 2025","Sun May 04 23:57:44 IST 2025","33155","chromium","tests\Module04\04_TestReports_Test.spec.ts","Smoke testing","","","Test 1",""
+"passed","Sun May 04 23:57:10 IST 2025","Sun May 04 23:57:38 IST 2025","27053","chromium","tests\Module04\04_TestReports_Test.spec.ts","Regression testing","","","Test 2",""
+"broken","Sun May 04 23:53:18 IST 2025","Sun May 04 23:55:21 IST 2025","122656","chromium","tests\Module5\amazon.test.ts","","","","amazon",""

@@ -1,0 +1,127 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-7UUT0JG",
+    "children" : [ {
+      "name" : "pid-5040-worker-1",
+      "children" : [ {
+        "name" : "Test 2",
+        "uid" : "34c43ff408ded089",
+        "parentUid" : "ddfbc6ead516b170b99890bd2c0b7514",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746383230964,
+          "stop" : 1746383258017,
+          "duration" : 27053
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Test 3",
+        "uid" : "b7dfa50e2e72c087",
+        "parentUid" : "ddfbc6ead516b170b99890bd2c0b7514",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746383258872,
+          "stop" : 1746383271186,
+          "duration" : 12314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "ddfbc6ead516b170b99890bd2c0b7514"
+    }, {
+      "name" : "pid-12300-worker-0",
+      "children" : [ {
+        "name" : "amazon",
+        "uid" : "aa822627f6cf88e0",
+        "parentUid" : "6fcd5d1f7d6286f515816b9575607407",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746382998883,
+          "stop" : 1746383121539,
+          "duration" : 122656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "6fcd5d1f7d6286f515816b9575607407"
+    }, {
+      "name" : "pid-5040-worker-0",
+      "children" : [ {
+        "name" : "Test 4",
+        "uid" : "6ba889ac4db0ac5d",
+        "parentUid" : "4e6278787e37d6804c6999bbfd2286e0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1746383265171,
+          "stop" : 1746383281810,
+          "duration" : 16639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      }, {
+        "name" : "Test 1",
+        "uid" : "6b79f28b384dba0e",
+        "parentUid" : "4e6278787e37d6804c6999bbfd2286e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746383230970,
+          "stop" : 1746383264125,
+          "duration" : 33155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "4e6278787e37d6804c6999bbfd2286e0"
+    }, {
+      "name" : "pid-15836-worker-0",
+      "children" : [ {
+        "name" : "amazon",
+        "uid" : "2b2af778366b4f4d",
+        "parentUid" : "f8d9660b9dfdc681e70f894892c92e8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1746382865648,
+          "stop" : 1746382930586,
+          "duration" : 64938
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "f8d9660b9dfdc681e70f894892c92e8c"
+    } ],
+    "uid" : "d4fefe4d8529780a17ae3311d8232c2d"
+  } ]
+}

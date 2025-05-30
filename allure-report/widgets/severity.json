@@ -1,0 +1,51 @@
+[ {
+  "uid" : "6b79f28b384dba0e",
+  "name" : "Test 1",
+  "time" : {
+    "start" : 1746383230970,
+    "stop" : 1746383264125,
+    "duration" : 33155
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ba889ac4db0ac5d",
+  "name" : "Test 4",
+  "time" : {
+    "start" : 1746383265171,
+    "stop" : 1746383281810,
+    "duration" : 16639
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "34c43ff408ded089",
+  "name" : "Test 2",
+  "time" : {
+    "start" : 1746383230964,
+    "stop" : 1746383258017,
+    "duration" : 27053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7dfa50e2e72c087",
+  "name" : "Test 3",
+  "time" : {
+    "start" : 1746383258872,
+    "stop" : 1746383271186,
+    "duration" : 12314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa822627f6cf88e0",
+  "name" : "amazon",
+  "time" : {
+    "start" : 1746382998883,
+    "stop" : 1746383121539,
+    "duration" : 122656
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

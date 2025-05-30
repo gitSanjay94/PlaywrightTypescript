@@ -1,44 +1,72 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="67.328115">
-<testsuite name="tests\Module5\amazon.test.ts" timestamp="2025-05-04T16:44:10.644Z" hostname="chromium" tests="1" failures="0" skipped="0" time="63.336" errors="0">
-<testcase name="amazon" classname="tests\Module5\amazon.test.ts" time="63.336">
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="32.120396">
+<testsuite name="tests\Module04\04_TestReports_Test.spec.ts" timestamp="2025-05-04T17:12:35.313Z" hostname="chromium" tests="4" failures="1" skipped="0" time="92.528" errors="0">
+<testcase name="Smoke testing › Test 1" classname="tests\Module04\04_TestReports_Test.spec.ts" time="21.543">
 <system-out>
-<![CDATA[1 Fresh
-2 MX Player
-3 Sell
-4 Bestsellers
-5 Today's Deals
-6 Mobiles
-7 Prime
-8 Fashion
-9 Customer Service
-10 New Releases
-11 Electronics
-12 Home & Kitchen
-13 Amazon Pay
-14 Computers
-15 Books
-16 Car & Motorbike
-17 Toys & Games
-18 Beauty & Personal Care
-19 Home Improvement
-20 Gift Cards
-21 Health, Household & Personal Care
-22 Grocery & Gourmet Foods
-23 Sports, Fitness & Outdoors
-24 Custom Products
-25 Baby
-26 Pet Supplies
-27 Video Games
-28 Gift Ideas
-29 AmazonBasics
-30 Audible
-31 Subscribe & Save
-32 Kindle eBooks
-Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
-Amazon.in : diapers small size 4-8 kg
+<![CDATA[test 1...
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Smoke-testing-Test-1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 2" classname="tests\Module04\04_TestReports_Test.spec.ts" time="23.993">
+<system-out>
+<![CDATA[test 2...
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 3" classname="tests\Module04\04_TestReports_Test.spec.ts" time="23.995">
+<system-out>
+<![CDATA[test 3...
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Regression testing › Test 4" classname="tests\Module04\04_TestReports_Test.spec.ts" time="22.997">
+<failure message="04_TestReports_Test.spec.ts:49:9 Test 4" type="FAILURE">
+<![CDATA[  [chromium] › tests\Module04\04_TestReports_Test.spec.ts:49:9 › Regression testing › Test 4 ───────
+
+    TimeoutError: locator.dragTo: Timeout 10000ms exceeded.
+    Call log:
+      - waiting for locator('.demoframe').contentFrame().locator('#draggable')
 
 
-[[ATTACHMENT|test-results\tests-Module5-amazon-amazon-chromium\trace.zip]]
+      56 |         const dropEle = await iframe.locator('#droppable');
+      57 |
+    > 58 |         await dragEle.dragTo(dropEle)
+         |                       ^
+      59 |         await page.waitForTimeout(6000)
+      60 |
+      61 |     })
+        at C:\Users\Admin\Desktop\playwrightAutomation\playwrightTypeScript\tests\Module04\04_TestReports_Test.spec.ts:58:23
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[test 1...
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\tests-Module04-04_TestReports_Test-Regression-testing-Test-4-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

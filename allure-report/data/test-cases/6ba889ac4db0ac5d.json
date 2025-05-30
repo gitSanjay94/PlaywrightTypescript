@@ -1,0 +1,335 @@
+{
+  "uid" : "6ba889ac4db0ac5d",
+  "name" : "Test 4",
+  "fullName" : "tests/Module04/04_TestReports_Test.spec.ts:49:9",
+  "historyId" : "d56cc93245bddea7894a19845ff636ca:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "time" : {
+    "start" : 1746383265171,
+    "stop" : 1746383281810,
+    "duration" : 16639
+  },
+  "status" : "failed",
+  "statusMessage" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n",
+  "statusTrace" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n\n    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Module04\\04_TestReports_Test.spec.ts:58:23",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n",
+    "statusTrace" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n\n    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Module04\\04_TestReports_Test.spec.ts:58:23",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1746383265170,
+        "stop" : 1746383265540,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "fixture: context",
+        "time" : {
+          "start" : 1746383265178,
+          "stop" : 1746383265223,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browser.newContext",
+          "time" : {
+            "start" : 1746383265182,
+            "stop" : 1746383265210,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1
+      }, {
+        "name" : "fixture: page",
+        "time" : {
+          "start" : 1746383265224,
+          "stop" : 1746383265539,
+          "duration" : 315
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1746383265231,
+            "stop" : 1746383265537,
+            "duration" : 306
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4
+    }, {
+      "name" : "page.goto(https://jqueryui.com/droppable/)",
+      "time" : {
+        "start" : 1746383265546,
+        "stop" : 1746383269775,
+        "duration" : 4229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "locator.dragTo",
+      "time" : {
+        "start" : 1746383269781,
+        "stop" : 1746383279810,
+        "duration" : 10029
+      },
+      "status" : "failed",
+      "statusMessage" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n",
+      "statusTrace" : "TimeoutError: locator.dragTo: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('.demoframe').contentFrame().locator('#draggable')\n\n    at C:\\Users\\Admin\\Desktop\\playwrightAutomation\\playwrightTypeScript\\tests\\Module04\\04_TestReports_Test.spec.ts:58:23",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1746383282268,
+        "stop" : 1746383282268,
+        "duration" : 0
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "296487bc7e219b46",
+        "name" : "screenshot",
+        "source" : "296487bc7e219b46.png",
+        "type" : "image/png",
+        "size" : 95142
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "video",
+      "time" : {
+        "start" : 1746383282270,
+        "stop" : 1746383282270,
+        "duration" : 0
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "668e7a55ac6f4bae",
+        "name" : "video",
+        "source" : "668e7a55ac6f4bae.webm",
+        "type" : "video/webm",
+        "size" : 267588
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "trace",
+      "time" : {
+        "start" : 1746383282272,
+        "stop" : 1746383282272,
+        "duration" : 0
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "770f4c61e8cb3d92",
+        "name" : "trace",
+        "source" : "770f4c61e8cb3d92.zip",
+        "type" : "application/vnd.allure.playwright-trace",
+        "size" : 784579
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1746383279811,
+        "stop" : 1746383281819,
+        "duration" : 2008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "page.screenshot",
+        "time" : {
+          "start" : 1746383279815,
+          "stop" : 1746383280026,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "fixture: page",
+        "time" : {
+          "start" : 1746383280029,
+          "stop" : 1746383280029,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "fixture: context",
+        "time" : {
+          "start" : 1746383280030,
+          "stop" : 1746383280030,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "video.saveAs",
+        "time" : {
+          "start" : 1746383281814,
+          "stop" : 1746383281817,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "d03d51592f32ae7a",
+      "name" : "stdout",
+      "source" : "d03d51592f32ae7a.txt",
+      "type" : "text/plain",
+      "size" : 10
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "framework",
+    "value" : "playwright"
+  }, {
+    "name" : "package",
+    "value" : "tests.Module04.04_TestReports_Test.spec.ts"
+  }, {
+    "name" : "titlePath",
+    "value" : " > chromium > tests\\Module04\\04_TestReports_Test.spec.ts > Regression testing"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-7UUT0JG"
+  }, {
+    "name" : "thread",
+    "value" : "pid-5040-worker-0"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\Module04\\04_TestReports_Test.spec.ts"
+  }, {
+    "name" : "subSuite",
+    "value" : "Regression testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Project",
+    "value" : "chromium"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ba889ac4db0ac5d.json",
+  "parameterValues" : [ "chromium" ]
+}

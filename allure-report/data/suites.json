@@ -1,0 +1,110 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests\\Module5\\amazon.test.ts",
+      "children" : [ {
+        "name" : "amazon",
+        "uid" : "aa822627f6cf88e0",
+        "parentUid" : "397fc4ec34f08c87b8a33d1d50482d73",
+        "status" : "broken",
+        "time" : {
+          "start" : 1746382998883,
+          "stop" : 1746383121539,
+          "duration" : 122656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chromium" ]
+      } ],
+      "uid" : "397fc4ec34f08c87b8a33d1d50482d73"
+    }, {
+      "name" : "tests\\Module04\\04_TestReports_Test.spec.ts",
+      "children" : [ {
+        "name" : "Regression testing",
+        "children" : [ {
+          "name" : "Test 2",
+          "uid" : "34c43ff408ded089",
+          "parentUid" : "0ebb550adce444bf6d5aedaac6c67f2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1746383230964,
+            "stop" : 1746383258017,
+            "duration" : 27053
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Test 3",
+          "uid" : "b7dfa50e2e72c087",
+          "parentUid" : "0ebb550adce444bf6d5aedaac6c67f2b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1746383258872,
+            "stop" : 1746383271186,
+            "duration" : 12314
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        }, {
+          "name" : "Test 4",
+          "uid" : "6ba889ac4db0ac5d",
+          "parentUid" : "0ebb550adce444bf6d5aedaac6c67f2b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1746383265171,
+            "stop" : 1746383281810,
+            "duration" : 16639
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "0ebb550adce444bf6d5aedaac6c67f2b"
+      }, {
+        "name" : "Smoke testing",
+        "children" : [ {
+          "name" : "Test 1",
+          "uid" : "6b79f28b384dba0e",
+          "parentUid" : "acde736587d65bc342c6fdc681c62ea9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1746383230970,
+            "stop" : 1746383264125,
+            "duration" : 33155
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "chromium" ]
+        } ],
+        "uid" : "acde736587d65bc342c6fdc681c62ea9"
+      } ],
+      "uid" : "10ff7b562a8af4709b353b3eb2ed99ed"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}
