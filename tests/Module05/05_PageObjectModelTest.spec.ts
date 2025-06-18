@@ -5,6 +5,7 @@ import { PlaylistPage } from '../../src/pages/PlaylistPage';
 
 test('Page Object Model Test', async ({ page }) => {
 test.setTimeout(120000);
+console.log('  ');
     // Create object of homepage
     const homepage = new HomePage(page);
     await homepage.goToURL();

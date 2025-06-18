@@ -35,7 +35,7 @@ export default defineConfig({
     ['allure-playwright', {
       outputFolder: 'allure-results',
       disableHistory: true,  // Stores only current run data
-      clean: true 
+      clean: true
     }],
     ['json', { outputFile: 'test-results/json-report.json' }],
     ['junit', { outputFile: 'test-results/junit-report.xml' }]
@@ -52,6 +52,7 @@ export default defineConfig({
     testIdAttribute: 'data-tab-item', // Custom test ID attribute
     actionTimeout: 10000, // 10s for actions
     // baseURL: process.env.BASE_URL || 'http://localhost:3000'
+    // launchOptions: { args: ['--start-maximized'] },  to set viewport, not working
   },
 
   /* Configure projects for major browsers */
@@ -82,10 +83,10 @@ export default defineConfig({
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
     // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+    {
+      name: 'Google Chrome',
+      use: { ...devices['Desktop Chrome'], channel: 'chrome',viewport:{width:1920,height:1080} },
+    },
   ],
   /* Run your local dev server before starting the tests */
   // webServer: {
