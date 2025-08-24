@@ -1,0 +1,101 @@
+POST API Response : {
+  "_initializer": {
+    "fetchUid": "7879fcb5ead9d782761f91ef491f0e8c",
+    "url": "https://restful-booker.herokuapp.com/booking",
+    "status": 200,
+    "statusText": "OK",
+    "headers": [
+      {
+        "name": "Content-Length",
+        "value": "203"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 20 Aug 2025 16:36:33 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"cb-2498CwkGlxS7P0FEx+LpFX807Bo\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=XXu1XoFTxj83rR%2FYsBmEOPJKpsncEg8RCCRj%2BebFPt0%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1755707793\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=XXu1XoFTxj83rR%2FYsBmEOPJKpsncEg8RCCRj%2BebFPt0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1755707793\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ]
+  },
+  "_headers": {
+    "_headersArray": [
+      {
+        "name": "Content-Length",
+        "value": "203"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json; charset=utf-8"
+      },
+      {
+        "name": "Date",
+        "value": "Wed, 20 Aug 2025 16:36:33 GMT"
+      },
+      {
+        "name": "Etag",
+        "value": "W/\"cb-2498CwkGlxS7P0FEx+LpFX807Bo\""
+      },
+      {
+        "name": "Nel",
+        "value": "{\"report_to\":\"heroku-nel\",\"response_headers\":[\"Via\"],\"max_age\":3600,\"success_fraction\":0.01,\"failure_fraction\":0.1}"
+      },
+      {
+        "name": "Report-To",
+        "value": "{\"group\":\"heroku-nel\",\"endpoints\":[{\"url\":\"https://nel.heroku.com/reports?s=XXu1XoFTxj83rR%2FYsBmEOPJKpsncEg8RCCRj%2BebFPt0%3D\\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\\u0026ts=1755707793\"}],\"max_age\":3600}"
+      },
+      {
+        "name": "Reporting-Endpoints",
+        "value": "heroku-nel=\"https://nel.heroku.com/reports?s=XXu1XoFTxj83rR%2FYsBmEOPJKpsncEg8RCCRj%2BebFPt0%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1755707793\""
+      },
+      {
+        "name": "Server",
+        "value": "Heroku"
+      },
+      {
+        "name": "Via",
+        "value": "1.1 heroku-router"
+      },
+      {
+        "name": "X-Powered-By",
+        "value": "Express"
+      }
+    ],
+    "_headersMap": {
+      "_map": {}
+    }
+  },
+  "_request": {
+    "_type": "APIRequestContext",
+    "_guid": "request-context@69e6d6f1411bcdd78d47eb0ed7bde53e"
+  }
+}

@@ -1,0 +1,2 @@
+Alert message is : Sample alert
+Dialog type is : alert

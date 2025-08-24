@@ -13,9 +13,9 @@ test('Handling Iframes, Drag and Drop element', async ({ page }) => {
 
 })
 
-test.only('SDET frames', async ({ page }) => {
+test('SDET frames', async ({ page }) => {
     test.setTimeout(120000);
-    await page.setViewportSize({width:640,height:480})
+    await page.setViewportSize({ width: 640, height: 480 })
     await page.goto('https://ui.vision/demo/webtest/frames/');
 
     //total frames
@@ -31,4 +31,37 @@ test.only('SDET frames', async ({ page }) => {
     //approach 2: using framelocator
     await page.frameLocator("//frame[@src='frame_1.html']").locator("//input[@name='mytext1']").fill('Bye');
     await page.waitForTimeout(5000)
+})
+
+test('Inner frames', async ({ page }) => {
+    test.setTimeout(120000);
+
+    await page.goto('https://ui.vision/demo/webtest/frames/');
+    const frame3 = await page.frame({ url: 'https://ui.vision/demo/webtest/frames/frame_3.html' })
+    // await frame3?.locator("//input[@name='mytext3']").fill('Frame3')
+
+    //nested frame
+    const childFrames = await frame3?.childFrames();
+    // await childFrames[0].locator("[id='i6']").check()
+    await page.waitForTimeout(5000)
+
+
+})
+
+test.only('frames letcode', async ({ page }) => {
+    test.setTimeout(120000);
+    await page.goto('https://letcode.in/frame')
+    const frame = page.frame({ name: "firstFr" })
+    if (frame != null) {
+        await frame.fill('input[name="fname"]', 'S')
+        await frame.fill('input[name="lname"]', 'K')
+
+        //inner frame
+        const frames = frame.childFrames();
+        console.log(frames.length)
+        await frames[0].fill('input[name="email"]', 'test@gmail')
+        const parent = await frames[0].parentFrame();
+        await parent?.fill('input[name="lname"]', 'D')
+        await page.waitForTimeout(5000)
+    } else throw new Error('No such frame')
 })
