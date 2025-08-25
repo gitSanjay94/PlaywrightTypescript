@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import postAPIRequest from '../../test-data/api_requests/Static_POST_API_Request.json';
+import postAPIRequest from '../../test-data/api_requests/Dynamic_POST_API_Request.json';
 
 test.use({ baseURL: process.env.BASE_API_URL, })
 
