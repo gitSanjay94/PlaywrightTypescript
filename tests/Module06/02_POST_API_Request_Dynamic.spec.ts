@@ -1,12 +1,12 @@
-import{test, expect} from '@playwright/test'
+import { test, expect } from '@playwright/test'
 
 import { formatAPIRequest } from '../../src/utils/APIHelper';
 import path from 'path';
 import fs from 'fs';
 
-test.use({baseURL: process.env.BASE_API_URL})
+test.use({ baseURL: process.env.BASE_API_URL })
 
-test('Create POST API Request using dynamic file', async ({request})=>{
+test('Create POST API Request using dynamic file', async ({ request }) => {
 
     // Reading the json file
     const filePath = path.join(__dirname, '../../test-data/api_requests/Dynamic_POST_API_Request.json')
@@ -15,8 +15,8 @@ test('Create POST API Request using dynamic file', async ({request})=>{
     const values = ['Sanjay007', 'Kumar007', 5000, 'Laptop'];
 
     // Updating POST API Request body
-   const postAPIRequest =  await formatAPIRequest(jsonTemplate,values);
-   
+    const postAPIRequest = await formatAPIRequest(jsonTemplate, values);
+
     // Create POST API Request
     const postAPIResponse = await request.post(`/booking`, { data: JSON.parse(postAPIRequest) });
 
@@ -24,7 +24,7 @@ test('Create POST API Request using dynamic file', async ({request})=>{
     const jsonPOSTAPIResponse = await postAPIResponse.json();
     console.log(`POST API Response : ` + JSON.stringify(jsonPOSTAPIResponse, null, 2));
 
-        // Validating API Response
+    // Validating API Response
     expect(postAPIResponse.status()).toBe(200);
     expect(postAPIResponse.statusText()).toBe('OK');
     expect(postAPIResponse.headers()['content-type']).toContain('application/json');

@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 463,
+  "booking": {
+    "firstname": "Haylee",
+    "lastname": "Considine",
+    "totalprice": 7713,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-15",
+      "checkout": "2025-01-17"
+    },
+    "additionalneeds": "MacBook"
+  }
+}

@@ -1,0 +1,26 @@
+POST API Response : {
+  "bookingid": 4845,
+  "booking": {
+    "firstname": "Raheem",
+    "lastname": "Harvey",
+    "totalprice": 4706,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "Brekkie"
+  }
+}
+Booking Id :  4845
+GET API Response : {
+  "firstname": "Raheem",
+  "lastname": "Harvey",
+  "totalprice": 4706,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "Brekkie"
+}
