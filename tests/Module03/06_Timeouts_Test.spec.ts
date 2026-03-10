@@ -16,7 +16,7 @@ test('Test Timeouts', async ({ page }) => {
     await expect(page).toHaveTitle('Playwright by Testers Talk☑️ - YouTube');
     await page.waitForTimeout(70000)
 
-    //Global test timeout...in playwright.config.ts     timeout: 2 * 60 *1000,
+    //Global test timeout...in playwright.config.ts     timeout: 2 * 60 * 1000,
     //Test timeout of 120000ms exceeded.   error
 })
 

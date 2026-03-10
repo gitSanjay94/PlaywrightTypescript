@@ -5,7 +5,7 @@ test('Locators in Playwright', async ({page})=>{
 // await page.goto('https://github.com/BakkappaN/');
 
 // getByRole
-// await page.getByRole('link', { name: 'Sign in' }).click();
+await page.getByRole('link', { name: 'Sign in' }).click();
 
 // getByLabel...aria-label="Homepage"
 // await page.getByLabel('Homepage',{exact:true}).first().click();

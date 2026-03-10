@@ -1,0 +1,31 @@
+import { test, expect } from '@playwright/test';
+
+test('test', async ({ page }) => {
+    await page.goto('https://demowebshop.tricentis.com/');
+    await page.getByRole('link', { name: 'Log in' }).click();
+    await page.getByRole('textbox', { name: 'Email:' }).click();
+    await page.getByRole('textbox', { name: 'Email:' }).fill('qa.user123@mailinator.com');
+    await page.getByRole('textbox', { name: 'Password:' }).click();
+    await page.getByRole('textbox', { name: 'Password:' }).fill('Engineer@09876');
+    await page.getByRole('button', { name: 'Log in' }).click();
+    await page.locator('#small-searchterms').click();
+    await page.locator('#small-searchterms').fill('Computer');
+    await page.getByRole('button', { name: 'Search' }).click();
+    await page.getByRole('button', { name: 'Add to cart' }).first().click();
+    await page.locator('#add-to-cart-button-72').click();
+    await expect(page.getByText('The product has been added to')).toBeVisible();
+    await page.getByRole('link', { name: 'Shopping cart (1)' }).click();
+    await page.getByRole('button', { name: 'Checkout' }).click();
+    await page.getByRole('button', { name: 'close' }).click();
+    await page.locator('#termsofservice').check();
+    await page.getByRole('button', { name: 'Checkout' }).click();
+    await page.getByLabel('Select a billing address from').selectOption('4768791');
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.getByRole('button', { name: 'Confirm' }).click();
+    await expect(page.getByText('Your order has been')).toBeVisible();
+    await page.getByRole('link', { name: 'Log out' }).click();
+});

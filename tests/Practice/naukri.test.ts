@@ -10,5 +10,6 @@ test('Update Naukri profile', async ({ page }) => {
     await page.getByPlaceholder('Enter your password').fill('Skd@1994');
     await page.getByRole('button', { name: 'Login', exact: true }).click();
     await page.waitForTimeout(6000)
+ 
     console.log(`The title after login is: `, await page.title());
 })

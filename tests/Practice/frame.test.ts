@@ -1,9 +1,9 @@
-import{test, expect } from '@playwright/test'
+import { test, expect } from '@playwright/test'
 
-test('Frames', async({page})=>{
-     test.setTimeout(120000);
+test('Frames', async ({ page }) => {
+    test.setTimeout(120000);
     await page.goto("https://the-internet.herokuapp.com/nested_frames");
-    
+
     // for(Frame childFrame : page.mainFrame().childFrames()){
     //     console.log(childFrame.name());  //frame-top, frame-bottom
     // }
